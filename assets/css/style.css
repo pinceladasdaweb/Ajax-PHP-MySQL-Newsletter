@@ -1,0 +1,137 @@
+body {
+    font-size: 62.5%;
+    background-color: #64c6af;
+}
+
+#newsletterform {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    max-width: 780px;
+    min-width: 320px;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+#newsletterform .wrap {
+    padding: 50px 40px;
+}
+
+#newsletterform h3 {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    font-size:26px;
+    font-weight:400;
+    line-height:1.2;
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom:20px;
+    margin: 0 auto 30px auto;
+    border-bottom:1px solid #fff;
+    width:60%;
+}
+
+#newsletterform p {
+    font-size:14px;
+    line-height:26px;
+    margin-bottom:25px;
+    color:#fff;
+}
+
+#newsletterform form {
+    /*position: relative;*/
+}
+
+#newsletterform input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight:500;
+    display: block;
+    width:55%;
+    background:#fff;
+    color:#888;
+    padding:15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 12px auto;
+    border:2px solid #fff;
+    outline:0;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#newsletterform input:focus {
+    border:2px solid #ddd;
+}
+
+#newsletterform input[type="submit"] {
+    background:#f77156;
+    color:#fff;
+    width:30%;
+    padding:13px;
+    cursor: pointer;
+    margin-bottom:0;
+    border:none;
+}
+
+#newsletterform input[type="submit"]:hover {
+    background:#F8CA4D;
+    color:#444;
+}
+
+#newsletterform .arrow {
+    display: inline-block;
+    background: url("../images/arrow.png") no-repeat;
+    width: 139px;
+    height: 48px;
+    position: absolute;
+    left: 120px;
+    top: 290px;
+}
+
+#newsletterform #response {
+    color: #fff;
+    font-size: 1.4em;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    width: 320px;
+}
+
+#newsletterform #response p {
+    margin: 0
+}
+
+@media only screen and (max-width:769px) {
+
+    #newsletterform .wrap {
+        padding: 40px 25px;
+    }
+
+    #newsletterform .arrow {
+        display: none;
+    }
+
+    #newsletterform input {
+        width: 100%;
+        margin-bottom: 7px;
+    }
+
+    #newsletterform input[type="submit"] {
+        width: 100%;
+        padding: 16px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    #newsletterform h3 {
+        width: 100%;
+    }
+
+}
