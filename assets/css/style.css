@@ -40,10 +40,6 @@ body {
     color:#fff;
 }
 
-#newsletterform form {
-    /*position: relative;*/
-}
-
 #newsletterform input {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -96,6 +92,7 @@ body {
 #newsletterform #response {
     color: #fff;
     font-size: 1.4em;
+    height: 25px;
     margin: 0 auto;
     padding-top: 15px;
     text-align: center;
@@ -104,6 +101,10 @@ body {
 
 #newsletterform #response p {
     margin: 0
+}
+
+#newsletterform .loading {
+    background: url("../images/loading.gif") no-repeat center 20px;
 }
 
 @media only screen and (max-width:769px) {
