@@ -4,6 +4,6 @@ require 'inc/Newsletter.class.php';
 
 if (!empty($_POST)) {
     $email = $_POST['signup-email'];
-}
 
-Newsletter::register($email);
+    Newsletter::register($email);
+}
