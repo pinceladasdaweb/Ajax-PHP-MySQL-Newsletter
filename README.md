@@ -9,5 +9,10 @@ How to use
 -----------------
 
 * Run create_table.sql file to create the structure of the database.
-* Send.php file fill in the variables with data from your database.
+* Open [Database.php](inc/Database.class.php) class file and fill the variables with data from your database.
 * Enjoy.
+
+Contributing
+-----------------
+
+Check [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
